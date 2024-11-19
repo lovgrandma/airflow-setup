@@ -1,0 +1,5 @@
+./tycoon_client1/redis-7.0.11/src/redis-server tycoon_client1/redis-7.0.11/redis.conf &
+./tycoon_customer_streaming1/redis-7.0.11/src/redis-server tycoon_customer_streaming1/redis-7.0.11/redis.conf &
+./tycoon_redis6387/redis-7.0.11/src/redis-server tycoon_redis6387/redis-7.0.11/redis.conf &
+./tycoon_redis6388/redis-7.0.11/src/redis-server tycoon_redis6388/redis-7.0.11/redis.conf &
+./scraper_queue6390/src/redis-server scraper_queue6390/redis.conf &
