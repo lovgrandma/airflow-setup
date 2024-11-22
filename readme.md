@@ -16,6 +16,9 @@ airflow scheduler
 # Edit your system dags at ~/airflow/dags
 touch ~/airflow/dags <dag>
 
+# View interface
+http://localhost:8080/
+
 # Run a dag 
 airflow dags trigger hello_world
 
